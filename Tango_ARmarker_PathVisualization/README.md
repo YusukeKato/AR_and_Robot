@@ -10,10 +10,10 @@ GoogleTangoでロボットの上に乗せたARマーカーを認識し、そのA
 * Windows 10
 
 ## 参考にしたもの
-* GoogleTango - Unity用のTangoSDKをダウンロード  https://developers.google.com/tango/apis/unity/
-* GoogleTango - Tangoアプリを作成するためのUnity初期セットアップ  https://developers.google.com/tango/apis/unity/unity-setup
-* Github - Tangoのサンプルコード  https://github.com/googlesamples/tango-examples-unity
-* Github - MarkerDitectionのページ    https://github.com/googlesamples/tango-examples-unity/tree/master/UnityExamples/Assets/TangoSDK/Examples/MarkerDetection
+* GoogleTango - Unity用のTangoSDKをダウンロード    https://developers.google.com/tango/apis/unity/
+* GoogleTango - Tangoアプリを作成するためのUnity初期セットアップ    https://developers.google.com/tango/apis/unity/unity-setup
+* Github - Tangoのサンプルコード    https://github.com/googlesamples/tango-examples-unity
+* Github - MarkerDitectionのページ            https://github.com/googlesamples/tango-examples-unity/tree/master/UnityExamples/Assets/TangoSDK/Examples/MarkerDetection
 
 # 開発方法
 
