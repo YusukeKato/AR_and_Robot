@@ -16,8 +16,8 @@ https://developers.google.com/tango/apis/unity/
 https://developers.google.com/tango/apis/unity/unity-setup
 * Github - Tangoのサンプルコード  
 https://github.com/googlesamples/tango-examples-unity
-* Github - MarkerDitectionのページ   
-
+* Github - MarkerDitectionのページ
+  
 https://github.com/googlesamples/tango-examples-unity/tree/master/UnityExamples/Assets/TangoSDK/Examples/MarkerDetection
 
 # 開発方法
@@ -32,7 +32,7 @@ https://github.com/googlesamples/tango-examples-unity/tree/master/UnityExamples/
 3. 「Create Project」ボタンを押す
 
 ## 「Tango SDK for Unity」をUnityへインポート
-1. GoogleTango公式サイトからUnity用のSDKをダウンロード
+1. GoogleTango公式サイトからUnity用のSDKをダウンロード  
 https://developers.google.com/tango/downloads
 2. ダウンロードしたSDKパッケージをUnityへインポート(２つの方法のどちらかを行う)
 * SDKパッケージをUnityエディタ画面のAssetsフォルダへドラッグ＆ドロップ
