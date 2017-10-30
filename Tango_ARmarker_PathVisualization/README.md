@@ -47,7 +47,7 @@ https://developers.google.com/tango/downloads
 6. ProjectパネルのCreateボタンからC#Scriptを選択。名前は「MarkerDetectionRouteVisualization」
 7. 今作ったMarkerDetectionRouteVisualization.csを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
 8. HierarchyパネルのMarkerDetectionをクリック、Inspectorパネルをみて以下の4つの作業を行う
-* Add Componentボタンを押して、MarkerDetectionRouteVisualization.csを選択
+* Add Componentボタンを押して、MarkerDetectionRouteVisualization.csを検索して選択
 * MarkerDetectionUIController.csのクリックを外す
 * MarkerDetectionRouteVisualization.csにあるMarkerPrefabの選択boxの右横にある丸印をクリック、「Marker」を選択
 * 同じ場所のrouteObjectの選択boxの右横にある丸印をクリック、さっき作成した「Cube」を選択
