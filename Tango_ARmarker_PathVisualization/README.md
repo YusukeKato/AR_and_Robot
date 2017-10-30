@@ -40,10 +40,17 @@ https://developers.google.com/tango/downloads
 
 ## Unityエディタ上での作業
 1. Projectパネルの Assets > TangoSDK > Examples > Scenes の中にMarkerDetectionというSceneがあるのでダブルクリック
-2. ProjectパネルのCreateボタンから new C# Script を選択。名前は「MarkerDetectionRouteVisualization」
-3. 今作ったMarkerDetectionRouteVisualizationを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
-4. HierarchyパネルのMarkerDetectionをクリック、InspectorパネルのAdd Componentボタンを押して、MarkerDetectionRouteVisualization.csを選択
-5. MarkerDetectionのInspectorパネルのMarkerDetectionUIController.csのクリックを外す
+2. HierarchyパネルのCreateボタンで3D Object > Cubeを選択
+3. 作成したCubeをクリック、InspectorパネルでScaleをxyz全て0.02にする（Unityの単位はメートル）
+4. HierarchyパネルのCubeをProjectパネルのAssetsフォルダにドラッグ＆ドロップ、これによりCubeはPrefab化される
+5. HierarchyパネルのCubeは削除（Prefabがあるので必要ない）
+6. ProjectパネルのCreateボタンからC#Scriptを選択。名前は「MarkerDetectionRouteVisualization」
+7. 今作ったMarkerDetectionRouteVisualization.csを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
+8. HierarchyパネルのMarkerDetectionをクリック、Inspectorパネルをみて以下の4つの作業を行う
+* Add Componentボタンを押して、MarkerDetectionRouteVisualization.csを選択
+* MarkerDetectionUIController.csのクリックを外す
+* MarkerDetectionRouteVisualization.csにあるMarkerPrefabの選択boxの右横にある丸印をクリック、「Marker」を選択
+* 同じ場所のrouteObjectの選択boxの右横にある丸印をクリック、さっき作成した「Cube」を選択
 
 ## ビルド
 1. Unityエディタ画面の File > BuildSetting でビルドの設定画面を開く
