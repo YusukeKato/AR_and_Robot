@@ -1,5 +1,5 @@
 # GoogleTangoを用いてロボットの移動経路を可視化
-GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し、そのARマーカーを頼りにロボットの移動経路を可視化します。ARマーカーを認識しているため、ロボットはなくても大丈夫です。
+GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し、そのARマーカーを頼りにロボットの移動経路を可視化します。ARマーカーの移動を検出するため、ロボットはなくても大丈夫です。
 
 ## 動かしたときの動画
 [Youtube - Tango-ロボットの移動経路の可視化](https://youtu.be/C9WDgyOMOnE)
@@ -43,7 +43,7 @@ https://developers.google.com/tango/downloads
 2. HierarchyパネルのCreateボタンで3D Object > Cubeを選択
 3. 作成したCubeをクリック、InspectorパネルでScaleをxyz全て0.02にする（Unityの単位はメートル）
 4. HierarchyパネルのCubeをProjectパネルのAssetsフォルダにドラッグ＆ドロップ、これによりCubeはPrefab化される
-5. HierarchyパネルのCubeは削除（Prefabがあるので必要ない）
+5. HierarchyパネルのCubeは削除（Prefabがあるので必要ないcubeは削除する）
 6. ProjectパネルのCreateボタンからC#Scriptを選択。名前は「MarkerDetectionRouteVisualization」
 7. 今作ったMarkerDetectionRouteVisualization.csを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
 8. HierarchyパネルのMarkerDetectionをクリック、Inspectorパネルをみて以下の4つの作業を行う
