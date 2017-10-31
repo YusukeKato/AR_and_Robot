@@ -8,7 +8,7 @@ GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し�
 * GoogleTangoを搭載した端末（私はZenFoneARを使っています）
 * Unity（バージョン5.5.5f1で動作を確認しました。5.2.1以降なら動くらしいです）
 * Windows 10
-* ロボット : Raspberry Pi Mouse
+* ロボット : Raspberry Pi Mouse（今回、ロボットはなくても大丈夫です）
 
 ## 参考にしたもの
 * GoogleTango - Unity用のTangoSDKをダウンロード  
@@ -71,6 +71,12 @@ https://developers.google.com/tango/downloads
 1. Projectパネルの Assets > TangoSDK > Examples > MarkerDetection > ar_markers.pdfを開く
 2. 一つ目のマーカーだけをA4サイズの紙に印刷（全部印刷しないように注意。1枚しか使いません）
 * タブレット端末などに表示してもできますが、その場合はスクリプト内のマーカーサイズを書き換える必要があります。
+
+## 動作確認
+1. Tango端末で今回作成したアプリを起動
+2. 印刷したARマーカーをTango端末のカメラに写す
+3. 白いキューブがARマーカー上に現れる
+4. ARマーカーを動かすと白いキューブがその動きに合わせて生成される（たくさん重なる）
 
 ## 注意点
 * Tango端末の画面内にマーカー全体が入っていないと認識できない
