@@ -77,6 +77,5 @@ https://developers.google.com/tango/downloads
 * マーカーが少しでも欠けると、認識できなくなる
 
 ## Copyright and License
-see ./LICENSE.txt  
-Copyright (c) 2017 Yusuke Kato  
+see ./LICENSE.txt    
 license : Apache License 2.0  
