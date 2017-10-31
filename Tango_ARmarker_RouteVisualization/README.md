@@ -70,7 +70,7 @@ https://developers.google.com/tango/downloads
 
 ## ビルドで失敗する場合
 AndroidSDKが問題かもしれないです。(インストールしたか、パスは正しいか)
-https://developers.google.com/tango/apis/unity/
+https://developers.google.com/tango/apis/unity/   
 エラーメッセージを検索すると情報が出ててきます。
 
 
