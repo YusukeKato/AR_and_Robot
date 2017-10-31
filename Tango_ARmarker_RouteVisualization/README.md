@@ -76,6 +76,6 @@ https://developers.google.com/tango/downloads
 * Tango端末の画面内にマーカー全体が入っていないと認識できない
 * マーカーが少しでも欠けると、認識できなくなる
 
-## Copyright and License
+## License
 see ./LICENSE.txt    
 license : Apache License 2.0  
