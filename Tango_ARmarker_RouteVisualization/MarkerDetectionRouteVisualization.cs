@@ -115,12 +115,14 @@ public class MarkerDetectionRouteVisualization : MonoBehaviour, ITangoVideoOverl
                 markerObject.GetComponent<MarkerVisualizationObject>().SetMarker(marker);
                 /* Generate routeObject every time the marker moves 30 mm */
                 /* マーカーが30mm移動したら、その場所にrouteObjectを生成 */
-                if(Vector3.Distance(marker.m_translation, routeLog[routeLog.Count-1]) >= 0.03f)
+                if (Vector3.Distance(marker.m_translation, routeLog[routeLog.Count - 1]) >= 0.03f)
                 {
                     GameObject ro = Instantiate<GameObject>(routeObject);
-                    ro.transform.position = marker.m_translation;
+                    ro.transform.position = routeLog[routeLog.Count - 1];
                     ro.transform.rotation = marker.m_orientation;
                     ro.transform.Translate(0, ro.transform.localScale.y / 2.0f, 0);
+                    ro.transform.LookAt(marker.m_translation);
+                    routeLog.Add(marker.m_translation);
                 }
             }
             else
