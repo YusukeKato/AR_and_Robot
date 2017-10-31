@@ -1,12 +1,15 @@
 # GoogleTangoを用いてロボットの移動経路を可視化
 GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し、そのARマーカーを頼りにロボットの移動経路を可視化します。ARマーカーを認識しているため、ロボットはなくても大丈夫です。
 
-## 参考動画
+## 動かしたときの動画
 [Youtube - Tango-ロボットの移動経路の可視化](https://youtu.be/C9WDgyOMOnE)
+
+## 今回作成するもの
+[今回作成するものの画像](./TARV.png)
 
 ## 開発環境
 * GoogleTangoを搭載した端末（私はZenFoneARを使っています）
-* Unity（バージョン5.5.5f1で動作を確認しました、5.2.1以降なら動くらしいです）
+* Unity（バージョン5.5.5f1で動作を確認しました。5.2.1以降なら動くらしいです）
 * Windows 10
 * ロボット : Raspberry Pi Mouse
 
@@ -66,6 +69,11 @@ https://developers.google.com/tango/downloads
 5. Tango端末の開発者向けオプションでUSBデバッグを有効にする（PC側ではなくスマホ側での話）
 6. UnityのBuildSettingにある「Build and run」ボタンを押す
 7. apkファイルの名前は適当につける。apkファイルの場所はAssetsフォルダ直下にする（だめならAndroidSDKと同じフォルダ）
+
+## ARマーカーの印刷
+1. Projectパネルの Assets > TangoSDK > Examples > MarkerDetection > ar_markers.pdfを開く
+2. 一つ目のマーカーだけをA4サイズの紙に印刷（全部印刷しないように注意。1枚しか使いません）
+* タブレット端末などに表示してもできますが、その場合はスクリプト内のマーカーサイズを書き換える必要があります。
 
 ## 注意点
 * Tango端末の画面内にマーカー全体が入っていないと認識できない
