@@ -118,10 +118,10 @@ public class MarkerDetectionRouteVisualization : MonoBehaviour, ITangoVideoOverl
                 if (Vector3.Distance(marker.m_translation, routeLog[routeLog.Count - 1]) >= 0.03f)
                 {
                     GameObject ro = Instantiate<GameObject>(routeObject);
-                    ro.transform.position = routeLog[routeLog.Count - 1];
+                    ro.transform.position = marker.m_translation;
                     ro.transform.rotation = marker.m_orientation;
                     ro.transform.Translate(0, ro.transform.localScale.y / 2.0f, 0);
-                    ro.transform.LookAt(marker.m_translation);
+                    ro.transform.LookAt(routeLog[routeLog.Count - 1]);
                     routeLog.Add(marker.m_translation);
                 }
             }
