@@ -40,14 +40,14 @@ https://developers.google.com/tango/downloads
 
 ## Unityエディタ上での作業
 1. Projectパネルの Assets > TangoSDK > Examples > Scenes の中にMarkerDetectionというSceneがあるのでダブルクリック
-2. このGithubのページにある「Arrows.blend」をダウンロード
+2. このGithubのページにある「Arrows.fbx」をダウンロード
 3. ダウンロードしたArrowsをPrejectパネルのAssetsフォルダ直下にドラック＆ドロップ（インポートする）
-4. ProjectパネルのCreateボタンからPrefabを選択、空のPrefabを作成される。名前は「ArrowsPrefab」
+4. ProjectパネルのCreateボタンからPrefabを選択、空のPrefabが作成される。名前は「ArrowsPrefab」
 5. さっきインポートしたArrowsをさっき作成したArrowsPrefabへドラッグ＆ドロップ
-6. ArrowsPrefabをクリック、InspectorパネルのScaleのxyz全て0.005にする（Unityの単位はメートル）
-6. ProjectパネルのCreateボタンからC#Scriptを選択。名前は「MarkerDetectionRouteVisualization」
-7. 今作ったMarkerDetectionRouteVisualization.csを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
-8. HierarchyパネルのMarkerDetectionをクリック、Inspectorパネルをみて以下の4つの作業を行う
+6. ArrowsPrefabをクリック、InspectorパネルのScaleのxyz全て0.005にする
+7. ProjectパネルのCreateボタンからC#Scriptを選択。名前は「MarkerDetectionRouteVisualization」
+8. 今作ったMarkerDetectionRouteVisualization.csを開いて、このGithubの同じディレクトリ内にあるMarkerDetectionRouteVisualization.csの中身をコピー＆ペースト
+9. HierarchyパネルのMarkerDetectionをクリック、Inspectorパネルをみて以下の4つの作業を行う
 * Add Componentボタンを押して、MarkerDetectionRouteVisualization.csを検索して選択
 * MarkerDetectionUIController.csのクリックを外す
 * MarkerDetectionRouteVisualization.csにあるMarkerPrefabの選択boxの右横にある丸印をクリック、「Marker」を選択
@@ -69,7 +69,8 @@ https://developers.google.com/tango/downloads
 7. apkファイルの名前は適当につける。apkファイルの場所はAssetsフォルダ直下にする（だめならAndroidSDKと同じフォルダ）
 
 ## ビルドで失敗する場合
-AndroidSDKが問題かもしれないです。(インストールしたか、パスは正しいか)
+AndroidSDKが問題かもしれないです。(インストールしているかどうか、パスが正しいかどうか)  
+以下のGoogleTango公式サイトに説明があります。  
 https://developers.google.com/tango/apis/unity/   
 エラーメッセージを検索すると情報が出ててきます。
 
