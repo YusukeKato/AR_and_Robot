@@ -1,18 +1,19 @@
 //----------------------------------------------------------------------------------------------------
 // Copyright 2016 Google Inc. All Rights Reserved. 
+// Copyright 2017 Yusuke Kato All Rights Reserved.
+//
 // Released under the Apache License 2.0
 // http://www.apache.org/licenses/LICENSE-2.0
 //
 // I Changed MarkerDetectionUIController.cs
 // https://github.com/googlesamples/tango-examples-unity/blob/master/UnityExamples/Assets/TangoSDK/Examples/MarkerDetection/Scripts/MarkerDetectionUIController.cs
-//----------------------------------------------------------------------------------------------------
-
-//----------------------------------------------------------------------------------------------------
-// license : Apache License 2.0
+// 
 // Changes : 
 // Visualize marker movement path
 // Generate a cube every time the marker moves 30 mm
 // Added explanation(English and Japanese)[/* */]
+//
+// license : Apache License 2.0
 //----------------------------------------------------------------------------------------------------
 
 using System;
