@@ -6,7 +6,9 @@ GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し�
 
 ## 開発環境
 * GoogleTangoを搭載した端末（私はZenFoneARを使っています）
-* Unity（バージョン5.5.5f1で動作を確認しました。Unity2017以降を使ってビルドで失敗する場合はバージョンを下げてみてください）
+* Unity  
+    -> Unity5.5で動作を確認  
+    -> Unity2017以降のバージョンではアプリが起動しませんでした(TangoSDKが競合してるかも)  
 * Windows 10
 * ロボット : Raspberry Pi Mouse（今回、ロボットはなくても大丈夫です）
 
