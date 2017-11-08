@@ -10,7 +10,7 @@ GoogleTangoを用いてロボットの上に乗せたARマーカーを認識し�
     -> Unity5.5で動作を確認  
     -> Unity2017以降のバージョンではアプリが起動しませんでした（TangoSDKが競合してるかも）  
 * Windows 10
-* ロボット : Raspberry Pi Mouse（今回、ロボットはなくても大丈夫です）
+* ロボット : [Raspberry Pi Mouse](http://products.rt-net.jp/micromouse/raspberry-pi-mouse)（今回、ロボットはなくても大丈夫です）
 
 ## 参考にしたもの
 * GoogleTango - Unity用のTangoSDKをダウンロード  
@@ -89,7 +89,8 @@ Unityはディレクトリ名を変更すれば、違うバージョンをイン
 1. Tango端末で今回作成したアプリを起動
 2. 印刷したARマーカーをTango端末のカメラに写す
 3. 白いキューブがARマーカー上に現れる
-4. ARマーカーを動かすと白いキューブがその動きに合わせて生成される（たくさん重なる）
+4. ARマーカーを動かすとArrowsPrefabが生成されていく
+5. ARマーカーをどのように動かしたかの経路が分かる
 
 ## 注意点
 * Tango端末の画面内にマーカー全体が入っていないと認識できない
@@ -98,3 +99,4 @@ Unityはディレクトリ名を変更すれば、違うバージョンをイン
 ## License
 see ./LICENSE.txt    
 license : Apache License 2.0  
+Copyright 2017 Yusuke Kato All Rights Reserved.
