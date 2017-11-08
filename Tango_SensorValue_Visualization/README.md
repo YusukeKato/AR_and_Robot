@@ -22,15 +22,34 @@ ROSで動かすロボットなら同じようにできると思います。
 4. センサ値を距離に変換
 5. ARマーカーをラズパイマウスの上に乗せる
 6. 距離センサの光の道筋に見立てたオブジェクトを生成
-7. そのオブジェクトの長さは、センサ値より求めた距離に応じる  
-完成
+7. そのオブジェクトの長さは、センサ値より求めた距離に応じる
+
+# 開発方法
 
 ## Raspberry Pi Mouse を動かす
 * ロボットを動かせる状態にしてください
+* rosbridgeをインストール
+* roslaunch
+* 距離センサのTopic
+* rosbridge_server
 
 ## Tangoアプリの作成
-以下の手順に従ってTangoアプリを作成してください。
-まだです。
+以下の手順に従ってTangoアプリを作成してください。  
+1. 新規プロジェクト作成
+2. TangoSDKをインポート
+3. MarkerDetectionSceneを開く
+4. MarkerDetectionのコンポーネントのcsファイルのチェックを外す
+5. このGithubのディレクトリにある２つのcsファイルをUnityへ
+6. その２つのcsファイルをMarkerDetectionのコンポーネントとして付ける
+
+## 実機へビルド
+1. Tango端末をパソコンへ接続
+2. USBデバッグを許可
+3. BuildSettingを開いてMarkerDetectionSceneを登録
+4. Androidへスイッチ
+5. PlayerSettingで会社の名前やアプリの名前を入力
+6. Bundle Identifierを「com.CompanyName.ProductName」のように入力
+7. ビルド開始
 
 ## 参考にしたもの
 * GoogleTango - Unity用のTangoSDKをダウンロード  
